@@ -7,7 +7,7 @@ app = 'Advantageshoppingcart'
 advshoppingcart_homepage_url = "https://advantageonlineshopping.com/#/"
 advshoppingcart_home_page_title = "\xa0Advantage Shopping"
 
-username = fake.user_name()[4:15]
+username = fake.user_name()[:15]
 email = fake.email()
 password = fake.password()
 first_name = fake.first_name()
